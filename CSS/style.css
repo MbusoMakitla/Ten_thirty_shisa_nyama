@@ -1,0 +1,100 @@
+.row h1 {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+#showcase{
+    background-image: url("../images/flame.jpg");
+    background-position: center right;
+    height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#showcase h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+}
+#navigation_bar{
+    background-color: goldenrod;
+    color: gray;
+}
+#navigation_bar ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+#navigation_bar li{
+    display: inline;
+}
+#navigation_bar a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+#main_body{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+#main_body_sidebar{
+    float: right;
+    width: 30%;
+    background: gray;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px red solid;
+}
+#main_footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5em;*/
+}
+body{
+    background-color: white;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/*social media*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-top: 20px;
+    margin-left: 230px;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-top: 20px;
+}
